@@ -1,9 +1,9 @@
 # Edge Bench
 
 ## Table of Contents
-* [Supported Models](##supported models)
-* [Pre-requisites](##pre-requisites)
-* [How to Run](##how to run)
+* [Supported Models](#supported-models)
+* [Pre-requisites](#pre-requisites)
+* [How to Run](#how-to-run)
 
 ## Supported Models
 
