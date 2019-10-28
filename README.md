@@ -26,7 +26,7 @@ Keras===2.2.4
 * PyTorch
 ```bash
 cd pytorch
-python execute.py --model [model name] --iteration [# of iterations] --cpu [Use CPU if set]
+python execute.py --model [model name] --iteration [number of iterations] --cpu [Use CPU if set]
 ```
 
 * TensorFlow
@@ -34,8 +34,8 @@ python execute.py --model [model name] --iteration [# of iterations] --cpu [Use 
 cd tensorflow
 
 # GPU
-NVIDIA_VISIBLE_DEVICES=0 python execute.py --model [model name] --iteration [# of iterations]
+NVIDIA_VISIBLE_DEVICES=0 python execute.py --model [model name] --iteration [number of iterations]
 
 # CPU
-NVIDIA_VISIBLE_DEVICES= python execute.py --model [model name] --iteration [# of iterations]
+NVIDIA_VISIBLE_DEVICES= python execute.py --model [model name] --iteration [number of iterations]
 ```
