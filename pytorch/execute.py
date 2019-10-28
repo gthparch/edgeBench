@@ -24,7 +24,7 @@ def execute(model_f, name, data_shape, gpu):
         for _ in range(parser.iteration):
             data = torch.randn(data_shape).to(device)
             net(data)
-    print(f'{name} inference time (sec): {(timer() - start) / parser.iteration:5f}')
+    print(f'{name} inference time (sec): {(timer() - start) / parser.iteration:.5f}')
 
 
 try_use_gpu = not parser.cpu
