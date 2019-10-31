@@ -39,6 +39,11 @@ Raspberry Pi.
 Same as PyTorch, Nvidia provides detailed instructions [here](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html#install)
 about how to install TensorFlow.
 
+#### DarkNet
+We compile the Darknet framework from source on the devices that we have. During compilation, you can 
+specify the GPU support by setting the flag `GPU=1`. You can refer more complication details to the 
+[website](https://pjreddie.com/darknet/install/).
+
 ## How to Run
 #### PyTorch
 ```bash
@@ -56,3 +61,10 @@ NVIDIA_VISIBLE_DEVICES=0 python execute.py --model [model name] --iteration [num
 # CPU
 NVIDIA_VISIBLE_DEVICES= python execute.py --model [model name] --iteration [number of iterations]
 ```
+
+#### DarkNet
+We use the pre-existing model configurations in DarkNet code base to execute models.
+```bash
+./darknet classifier predict [base label data] [model config] [model weights] [inference data]
+```
+You can lookup more details [here](https://pjreddie.com/darknet/imagenet/).
