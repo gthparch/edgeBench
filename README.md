@@ -7,6 +7,26 @@
 
 ## Supported Models
 
+|   | PyTorch | TensorFlow | DarkNet | Caffe |
+|---|---------|------------|---------|-------|
+|ResNet-18|✔|✔|-|-|
+|ResNet-50|✔|✔|✔|✔|
+|ResNet-101|✔|✔|✔|✔|
+|Xception|✔|✔|-|✔|
+|MobileNet-v2|✔|✔|-|✔|
+|Inception-v4|✔|✔|-|✔|
+|AlexNet|✔|✔|✔|✔|
+|VGG-11 (224x224)|✔|-|-|-|
+|VGG-11 (32x32)|✔|-|-|-|
+|VGG-16|✔︎|✔|✔|✔|
+|VGG-19|✔|✔|-|✔|
+|CifarNet (32x32)|✔|-|-|-|
+|SSD MobileNet-v1|✔|-|-|-|
+|YOLOv3|✔|-|✔|-|
+|Tiny YOLO|✔|✔|✔|-|
+|C3D|✔|-|-|-|
+
+
 ## Pre-requisites
 * Python >= 3.5
 * CUDA 10.0
