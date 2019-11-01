@@ -8,6 +8,7 @@ import caffe
 args = argparse.ArgumentParser()
 args.add_argument('--model', help='Model name')
 args.add_argument('--cpu', help='Use cpu or not', default=False, type=bool)
+args.add_argument('-i', '--iteration', default=1000, type=int, help='Test iteration.')
 parser = args.parse_args()
 
 
@@ -47,7 +48,7 @@ def run(name, gpu):
 
     net = caffe.Net(path, caffe.TEST)
     start = timer()
-    for _ in range(30):
+    for _ in range(parser.iteration):
         data = np.random.random_sample(shape)
         net.blobs['data'].data[...] = data
         net.forward()
