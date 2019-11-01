@@ -52,13 +52,13 @@ ARCH=-gencode arch=compute_62,code=[sm_62,compute_62]
 
 #### Caffe
 We compile the Caffe framework from source following [this](https://github.com/BVLC/caffe/wiki/Ubuntu-16.04-or-15.10-Installation-Guide)
-tutorial. 
+tutorial. In order to compile `pycaffe`, we change `PYTHON_LIB` and `PYTHON_INCLUDE` flags in the makefile accordingly. 
 
 ## How to Run
 #### PyTorch
 ```bash
 cd pytorch
-python execute.py --model [model name] --iteration [number of iterations] --cpu [Use CPU if set]
+python execute.py --model [model name] --iteration [number of iterations] --cpu [use CPU if set]
 ```
 
 #### TensorFlow
@@ -78,3 +78,9 @@ We use the pre-existing model configurations in DarkNet code base to execute mod
 ./darknet classifier predict [base label data] [model config] [model weights] [inference data]
 ```
 You can lookup more details [here](https://pjreddie.com/darknet/imagenet/).
+
+#### Caffe
+The models in Caffe framework are defined as prototxt. 
+```bash
+python execute.py --model [model name] --iteration [number of iteration] --cpu [use CPU if set]
+```
