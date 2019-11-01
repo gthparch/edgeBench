@@ -7,6 +7,7 @@
 
 ## Supported Models
 
+#### General Framework
 |   | PyTorch | TensorFlow | DarkNet | Caffe |
 |---|:---------|:------------|:---------|:-------|
 |ResNet-18|:heavy_check_mark:|:heavy_check_mark:|-|-|
@@ -26,6 +27,12 @@
 |Tiny YOLO|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|-|
 |C3D|:heavy_check_mark:|-|-|-|
 
+#### Platform-specific Framework
+For platform-specific framework, it is really hard to create our own models from scratch, so
+we use whatever models the vendor provides. We share the link to vendor's model documentations.
+
+|   | [TfLite](https://www.tensorflow.org/lite/models/) | [TensorRT](https://developer.nvidia.com/embedded/jetson-nano-dl-inference-benchmarks) | [Movidius](https://movidius.github.io/ncsdk/tensorflow.html) | [EdgeTPU](https://coral.withgoogle.com/docs/edgetpu/models-intro/) |
+|---|:---------|:------------|:---------|:-------|
 
 ## Pre-requisites
 * Python >= 3.5
