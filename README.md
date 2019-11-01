@@ -9,6 +9,7 @@
 
 ## Pre-requisites
 * Python >= 3.5
+* CUDA 10.0
 * Python Packages (Versions that we use.)
 ```bash
 numpy===1.16.4
@@ -40,9 +41,18 @@ Same as PyTorch, Nvidia provides detailed instructions [here](https://docs.nvidi
 about how to install TensorFlow.
 
 #### DarkNet
-We compile the Darknet framework from source on the devices that we have. During compilation, you can 
-specify the GPU support by setting the flag `GPU=1`. You can refer more complication details to the 
+We compile the Darknet framework from source. You can refer more complication details to the 
 [website](https://pjreddie.com/darknet/install/).
+
+For DarkNet GPU support, we change Makefile flags as shown below 
+```bash
+GPU=1
+ARCH=-gencode arch=compute_62,code=[sm_62,compute_62]
+```
+
+#### Caffe
+We compile the Caffe framework from source following [this](https://github.com/BVLC/caffe/wiki/Ubuntu-16.04-or-15.10-Installation-Guide)
+tutorial. 
 
 ## How to Run
 #### PyTorch
