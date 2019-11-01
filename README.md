@@ -8,23 +8,23 @@
 ## Supported Models
 
 |   | PyTorch | TensorFlow | DarkNet | Caffe |
-|---|---------|------------|---------|-------|
-|ResNet-18|✔|✔|-|-|
-|ResNet-50|✔|✔|✔|✔|
-|ResNet-101|✔|✔|✔|✔|
-|Xception|✔|✔|-|✔|
-|MobileNet-v2|✔|✔|-|✔|
-|Inception-v4|✔|✔|-|✔|
-|AlexNet|✔|✔|✔|✔|
-|VGG-11 (224x224)|✔|-|-|-|
-|VGG-11 (32x32)|✔|-|-|-|
-|VGG-16|✔︎|✔|✔|✔|
-|VGG-19|✔|✔|-|✔|
-|CifarNet (32x32)|✔|-|-|-|
-|SSD MobileNet-v1|✔|-|-|-|
-|YOLOv3|✔|-|✔|-|
-|Tiny YOLO|✔|✔|✔|-|
-|C3D|✔|-|-|-|
+|---|:---------|:------------|:---------|:-------|
+|ResNet-18|:heavy_check_mark:|:heavy_check_mark:|-|-|
+|ResNet-50|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|ResNet-101|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|Xception|:heavy_check_mark:|:heavy_check_mark:|-|:heavy_check_mark:|
+|MobileNet-v2|:heavy_check_mark:|:heavy_check_mark:|-|:heavy_check_mark:|
+|Inception-v4|:heavy_check_mark:|:heavy_check_mark:|-|:heavy_check_mark:|
+|AlexNet|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|VGG-11 (224x224)|:heavy_check_mark:|-|-|-|
+|VGG-11 (32x32)|:heavy_check_mark:|-|-|-|
+|VGG-16|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|VGG-19|:heavy_check_mark:|:heavy_check_mark:|-|:heavy_check_mark:|
+|CifarNet (32x32)|:heavy_check_mark:|-|-|-|
+|SSD MobileNet-v1|:heavy_check_mark:|-|-|-|
+|YOLOv3|:heavy_check_mark:|-|:heavy_check_mark:|-|
+|Tiny YOLO|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|-|
+|C3D|:heavy_check_mark:|-|-|-|
 
 
 ## Pre-requisites
