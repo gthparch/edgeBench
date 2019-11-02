@@ -1,5 +1,11 @@
 # Edge Bench
 
+This is the benchmarks for the paper __Characterizing the Deployment of Deep Neural Networks on Commercial Edge Devices__. We are updating the repo to include edgeTPU, TensorRT, and Movidius implementations as well.
+
+You can find the official paper [https://ramyadhadidi.github.io/files/iiswc19-edge.pdf](https://ramyadhadidi.github.io/files/iiswc19-edge.pdf).
+
+This work is done at [HPArch@GaTech](http://comparch.gatech.edu/hparch/index.html). 
+
 ## Table of Contents
 * [Supported Models](#supported-models)
 * [Pre-requisites](#pre-requisites)
